@@ -109,7 +109,12 @@
   </div>
 </div>
 
-<img class="ui fluid image" src="http://courses.ics.hawaii.edu/ics314s20/morea/ui-frameworks/experience-islandsnow-video-snapshot.png">
+<div class="vidcontainer">
+  <video onclick="mute()" id="vid" allow="autoplay" style="width:100%" muted="" autoplay="" loop="" playsinline="">
+    <source src="//cdn.shopify.com/s/files/1/1035/5187/files/ISHSmall.mp4?16079262112649193432" type="video/mp4">
+  </video>
+  <img id="sound" src="//cdn.shopify.com/s/files/1/1035/5187/files/sound.png?10610077142371916648" onclick="mute()" alt="" style="">
+</div>
 
 <script>
   $('.ui.dropdown')
